@@ -1070,7 +1070,15 @@ client.on('message', message => {
   if (message.content.startsWith(karzoprfix + 'wt')) {////واتشنق
   client.user.setActivity(argresult, {type:'WATCHING'});
       message.channel.send(:white_check_mark:   ${argresult} Done Sir)
+  } else
+  if (message.content.startsWith(karzoprfix + 'st')) {////ستريمنق
+    client.user.setGame(argresult, "https://www.twitch.tv/idk%22);
+      message.channel.send(:white_check_mark:)
+  } else
+  if (message.content.startsWith(karzoprfix + 'ls')) {/////////ليسننق
+  client.user.setActivity(argresult , {type:'LISTENING'});
+      message.channel.send(:white_check_mark:   ${argresult} Done Sir)
+client.user.setStatus("dnd")
   }
 });
-
-client.login(process.env.BOT_TOKEN);
+///في حالة استعمالك هيروكو: client.login(process.env.BOT_TOKEN);
