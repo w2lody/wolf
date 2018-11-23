@@ -1070,7 +1070,6 @@ client.on('message', message => {
   if (message.content.startsWith(karzoprfix + 'wt')) {////واتشنق
   client.user.setActivity(argresult, {type:'WATCHING'});
       message.channel.send(:white_check_mark:   ${argresult} Done Sir)
-
   }
 });
 
