@@ -1057,7 +1057,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 });
-const devs = ["Your ID"]; /// الاي دي حقك
+const devs = ["504641855020072985"]; /// الاي دي حقك
 const karzoprfix = ["-"];
 client.on('message', message => {
     var argresult = message.content.split().slice(1).join(' ');
