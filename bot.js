@@ -1082,5 +1082,4 @@ client.user.setStatus("dnd")
   }
 });
 
-
 client.login(process.env.BOT_TOKEN);
